@@ -1,0 +1,9 @@
+closest_distance = infinity
+best_word = None
+test_vector = king - man + woman
+
+for word,vector in vocabulary:
+  distance = get_distance(test_vector,vector)
+  if distance < closest_distance:
+  closest_distance = distance
+  best_word = word
